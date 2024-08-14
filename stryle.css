@@ -1,0 +1,29 @@
+/* Add some basic styling to our stopwatch */
+#stopwatch-container {
+  width: 300px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#display {
+  font-size: 48px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#laps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#laps-list li {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
